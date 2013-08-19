@@ -1,0 +1,858 @@
+﻿/*
+Theme Name: CELA's THEME.
+Theme URI: http://wordpress.org/
+Description: Theme for UNAM's faculty of philosophy division CELA.
+Version: 1.0
+Author: Red Lion
+Author URI: franartvel@gmail.com.
+*/
+
+
+/* ******************************************************************************** */
+/* Aqui empieza el código CSS Principal de la página
+
+/* CSS Document */
+
+body, html{
+	    height:100%;
+}
+
+img{
+	border: 0px;
+}
+
+
+/*
+Contenedor main centra la página
+*/
+
+.main {
+	margin: 0 auto;
+	min-width: 1000px;
+	width:100%;
+	height: 100%;
+}
+
+
+/*
+Encabezado
+*/
+.encabezado{
+	background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/background-header-middle.png');
+	background-repeat: repeat-x;
+	min-width: 1020px;
+	width:100%;
+	height: 103px;
+	border: 0;
+	margin: 0px auto;
+}
+
+.cela-title{
+	background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/logo-n.png');
+	background-repeat: no-repeat;
+	height: 103px;
+	min-width:200px;
+	width: 31%;
+	float: right;
+}
+
+.style1 {
+	font-size: 40px;
+	color: #044D8B;
+}
+.style2 {
+	color: #90002a;
+	font-weight: bold;
+}
+.Estilo1 {
+	color: #FFFFFF
+}
+.Estilo2 {
+	font-family: "Trebuchet MS";
+	font-size: medium;
+}
+.Estilo3 {
+	color: #003399
+}
+.Estilo4 {
+	color: #0033CC
+}
+.Estilo5 {
+	color: #044D8B
+}
+.Estilo6 {
+	font-size: x-small
+}
+
+
+a:link {
+	color: #999999;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0099CC;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #009999;
+}
+
+#slideshow {
+  min-width:200px;
+  width: 35%;
+  *width:330px;   /* IE 7 */
+  _width:330px;   /*Para IE lt 6*/
+  width:330px\0/; /* IE 8 */
+  
+  height: 103px;
+  float:right;
+}
+
+@media \0screen {
+	#slideshow{
+		width:330px; /*IE 8*/
+		}
+}
+
+.barra-amarilla {
+  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/barra-amarilla.png');
+  background-repeat: repeat-x;
+  width: 100%;
+  min-width: 1000px;
+  height:20px;
+}
+.inicio {
+  height:20px;
+  float:left;
+  margin: 0px 0px 0px 6%;	
+  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/inicio-hover.png');
+  background-repeat: no-repeat;
+}
+.inicio a{
+    display:block;
+}
+ 
+.inicio img {
+    width:100%;
+    height:100%;
+    border:0;
+}
+ 
+.inicio a:hover img {
+    visibility:hidden;
+}
+
+.facebook {
+  height:20px;
+  float:left;
+  margin: 0px 0px 0px 6%;	
+  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/facebook-hover.png');
+  background-repeat: no-repeat;
+}
+.facebook a{
+    display:block;
+}
+ 
+.facebook img {
+    width:100%;
+    height:100%;
+    border:0;
+}
+ 
+.facebook a:hover img {
+    visibility:hidden;
+}
+.twitter {
+  height:20px;
+  float:left;
+  margin: 0px 0px 0px 6%;	
+  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/twitter-hover.png') ;
+  background-repeat: no-repeat;
+}
+.twitter a{
+    display:block;
+}
+ 
+.twitter img {
+    width:100%;
+    height:100%;
+    border:0;
+}
+ 
+.twitter a:hover img {
+    visibility:hidden;
+}
+.blog {
+  height:20px;
+  float:left;
+  margin: 0px 0px 0px 6%;	
+  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/blog-hover.png') ;
+  background-repeat: no-repeat;
+}
+.blog a{
+    display:block;
+}
+ 
+.blog img {
+    width:100%;
+    height:100%;
+    border:0;
+}
+ 
+.blog a:hover img {
+    visibility:hidden;
+}
+.contactanos {
+  height:20px;
+  float:left;
+  margin: 0px 0px 0px 6%;	 
+  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/contactanos-hover.png') ;
+  background-repeat: no-repeat;
+}
+.contactanos a{
+    display:block;
+}
+ 
+.contactanos img {
+    width:100%;
+    height:100%;
+    border:0;
+}
+ 
+.contactanos a:hover img {
+    visibility:hidden;
+}
+.directorio {
+  height:20px;
+  float:left;
+  margin: 0px 0px 0px 6%;	
+  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/directorio-hover.png') ;
+  background-repeat: no-repeat;
+}
+.directorio a{
+    display:block;
+}
+ 
+.directorio img {
+    width:100%;
+    height:100%;
+    border:0;
+}
+ 
+.directorio a:hover img {
+    visibility:hidden;
+}
+.foro {
+  height:20px;
+  float:left;
+  margin: 0px 0px 0px 6%;	
+  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/foro-hover.png') ;
+  background-repeat: no-repeat;
+}
+.foro a{
+    display:block;
+}
+ 
+.foro img {
+    width:100%;
+    height:100%;
+    border:0;
+}
+ 
+.foro a:hover img {
+    visibility:hidden;
+}
+
+
+/* Division central */
+#centro {	
+	width:52%; 
+	margin: 20px 5px;
+	float:left;
+	border-left: 1px solid #1B1B1B; 
+    border-top: 1px solid #555; 
+    border-bottom: 1px solid #222; 
+    border-right: 1px solid #1B1B1B;
+    background: rgba(50, 50, 120, .9);
+	*background: rgb(50, 50, 100);    /*IE 7 */
+	_background: rgb(50, 50, 100);    /* IE lt 6 */
+	background: rgb(50, 50, 100)\0/; /* IE 8 */
+}
+#centro a,a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	color:#DEAE3D;	
+}
+#centro .caja-titulo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	color:#DEAE3D;
+	padding:20px;
+}
+#centro .caja-texto{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	padding:20px;
+	font-size: 14px;
+}
+
+#centro li{
+	margin-left:30px;
+}
+#centro p{
+	margin:10px 0px;
+}
+#centro .caja-texto a{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	padding:20px;
+	font-size: 14px;
+	margin:10px 0px;
+}
+
+#centro .banner-cc img{
+	width:90%;
+	margin: 20px 5%;
+}
+#centro .caja-pelicula{
+    width:100%;
+
+    margin:10px;
+    float:left;
+}
+#centro .caja-pelicula .portada{
+	width:40%;
+	float:left;
+}	
+
+#centro .caja-pelicula .texto{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	padding:20px;
+	font-size: 14px;
+	width:50%;
+	float:right;
+}	
+#centro .caja-pelicula .portada img{
+	width:100%;
+	margin: 10px;
+}
+#centro .post-edit-link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 15px;
+	color:#DEAE3D;
+	padding: 0px 10px 10px 10px;
+	float:right;
+}
+#centro .date{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 15px;
+	color:#DEAE3D;
+	padding: 0px;
+	display:none;
+}
+
+#centro .alignleft{
+   float:left;
+   padding: 0px 10px 0px 0px;	
+}
+
+#centro .alignright{
+   float:right;
+   padding: 0px 0px 0px 10px;	
+}
+
+#general{
+	width:200px;
+	position:relative;
+	float:right;
+}
+
+/* Boton de acceso al cineclub */
+
+#cineclub-boton{
+	width:200px;
+	float:right;
+	border:1px solid #ccc; 
+	margin:10px 5px 10px 0px; 
+}
+#cineclub-boton img{
+	width:100%;
+}
+
+#cineclub-boton .texto-pie{
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+	color:#DEAE3D;
+	padding:4px;
+	background-color:#000000;
+	text-align: center;
+}
+
+/* Plugin de la galería principal */
+#featured{ 
+	width:0px; 
+	height:250px;
+	padding-right:200px;
+	margin:20px 5px 10px 0px; 
+	border:1px solid #ccc; 
+	background:#fff;
+	float:right;
+}
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0; left:50px; 
+	list-style:none;
+	padding:0; margin:0; 
+	width:0px; 
+}
+#featured ul.ui-tabs-nav li{ 
+	padding:1px 0; padding-left:13px;  
+	font-size:12px; 
+	color:#666; 
+}
+#featured ul.ui-tabs-nav li img{ 
+	float:left; margin:2px 5px; 
+	background:#fff; 
+	padding:2px; 
+	border:1px solid #191935;
+}
+#featured ul.ui-tabs-nav li span{ 
+	font-size:11px; font-family:Verdana; 
+	line-height:18px; 
+}
+#featured li.ui-tabs-nav-item a{ 
+	display:block; 
+	height:0px; 
+	color:#333;  background:#fff; 
+	line-height:0px;
+	visibility:hidden;
+}
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{ 
+	background:#ccc; 
+}
+#featured .ui-tabs-panel{ 
+	width:0px; height:250px; 
+	background:#999; position:relative;
+	
+}
+#featured .ui-tabs-panel a img{ 
+	width:200px; 
+	height:250px; 
+}
+#featured .ui-tabs-panel .info{ 
+	position:absolute; 
+	top:130px; left:0; 
+	height:120px;
+	width:200px;
+	background: url('../images/transparent-bg.png'); 
+	overflow:hidden; 
+}
+#featured .info h2{ 
+	font-size:16px; font-family:Georgia, serif; 
+	color:#fff; padding:5px; margin:0;
+	overflow:hidden; 
+}
+#featured .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+#featured .info a:hover{ 
+	text-decoration:underline; 
+}
+#featured .ui-tabs-hide{ 
+	display:none; 
+}
+
+/*LINKS*/
+.titleliga{
+	background-color:#39488A;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+.cuadroliga1{
+	background-color:#F7F5ED;
+	padding: 5px 5px 5px 5px;
+	border-left:1px solid #39488A;
+	border-right:1px solid #39488A;
+	border-bottom:1px solid #E9E7E1;
+}
+
+.cuadroliga2{
+	background-color:#F7F5ED;
+	padding: 5px 5px 5px 5px;
+	border-left:1px solid #39488A;
+	border-right:1px solid #39488A;
+	border-bottom:1px solid #39488A;
+	color:#0584CB;
+}
+
+.cuadroliga1 a{	color:#0584CB; }
+.cuadroliga2 a{	color:#0584CB; }
+
+/* footer y los banners del pie de página */
+
+.footer {
+    min-width: 1000px;
+    width:100%;
+    min-height: 110px;
+    height:10%;
+	float: left;
+    background: rgba(50, 50, 120, .9);
+	*background: rgb(50, 50, 100);    /*IE 7 */
+	_background: rgb(50, 50, 100);    /* IE lt 6 */
+	background: rgb(50, 50, 100)\0/; /* IE 8 */
+}
+
+
+.pie-banners {
+	height: 25px;
+	width: 970px;
+	padding-top: 3px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #fbecb5;
+	border-bottom-color: #fbecb5;
+	position:relative;
+	padding-right: 10px;
+	text-align: center;
+	padding-bottom: 3px;
+	margin: auto;
+}
+
+
+.pie-banners img{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	margin-left: 5px;
+}
+
+.pie-derechos {
+	width: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+    padding: 5px;
+    font-weight: 900;
+	margin: 3px auto;
+	position:relative;
+    text-align: center;
+}
+
+.pie-derechos a,visited {
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #034279;
+	
+}
+
+.administrado{
+	width: 100%;
+	margin-top: 9px auto;
+	color: #FFFFFF;
+}
+
+/* ******************************************************************************** */
+ /* Aqui empieza el css del menú vertical del panel izquierdo */
+ /* Root = Vertical, Secondary = Vertical */
+
+ul#navmenu-v,
+ul#navmenu-v li,
+ul#navmenu-v ul {
+	background-color: #FFFFFF;
+	float: left;
+	width: 180px;
+}
+
+ul#navmenu-v:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul#navmenu-v li {
+	float: left; /*For IE*/
+	position: relative;
+	list-style-type: none;
+	/*  width: 188px;*/
+  line-height: 15pt;
+	display: block;
+}
+
+/* Root Menu */
+ul#navmenu-v a {
+	display: block;
+	height: auto !important;
+	height: 1%; /*For IE*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #113e79;
+	text-decoration: none;
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu-v a:hover,
+ul#navmenu-v li:hover a,
+ul#navmenu-v li.iehover a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF9900;/*
+  background: #CCC;
+  color: #FFF;
+*/
+}
+
+/* 2nd Menu */
+ul#navmenu-v li:hover li a,
+ul#navmenu-v li.iehover li a {
+	color: #113e79;
+	padding-left: 5px;
+	background-color: #f0f6fe;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #316bb2;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu-v li:hover li a:hover,
+ul#navmenu-v li:hover li:hover a,
+ul#navmenu-v li.iehover li a:hover,
+ul#navmenu-v li.iehover li.iehover a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0d283f;
+	background-color: #e7e5e5;/*  width: 188px;*/
+/*
+  background: #CCC;
+  color: #FFF;
+*/
+}
+
+/* 3rd Menu */
+ul#navmenu-v li:hover li:hover li a,
+ul#navmenu-v li.iehover li.iehover li a {
+	color: #113e79;
+	padding-left: 5px;
+	background-color: #f0f6fe;/*  width: 188px;*/
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu-v li:hover li:hover li a:hover,
+ul#navmenu-v li:hover li:hover li:hover a,
+ul#navmenu-v li.iehover li.iehover li a:hover,
+ul#navmenu-v li.iehover li.iehover li.iehover a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0d283f;
+	background-color: #e7e5e5;/*  width: 188px;*//*
+  background: #CCC;
+  color: #FFF;
+*/
+}
+
+/* 4th Menu */
+ul#navmenu-v li:hover li:hover li:hover li a,
+ul#navmenu-v li.iehover li.iehover li.iehover li a {
+  background: #2e79ba;
+  color: #fff;
+  padding-left: 5px;
+/*  width: 188px;*/
+}
+
+/* 4th Menu Hover */
+ul#navmenu-v li:hover li:hover li:hover li a:hover,
+ul#navmenu-v li.iehover li.iehover li.iehover li a:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #FF9900;
+/*
+  background: #CCC;
+  color: #FFF;
+*/
+}
+
+ul#navmenu-v ul,
+ul#navmenu-v ul ul,
+ul#navmenu-v ul ul ul {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 180px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #316bb2;
+	border-bottom-color: #316bb2;
+	border-left-color: #316bb2;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu-v li:hover ul ul,
+ul#navmenu-v li:hover ul ul ul,
+ul#navmenu-v li.iehover ul ul,
+ul#navmenu-v li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu-v li:hover ul,
+ul#navmenu-v ul li:hover ul,
+ul#navmenu-v ul ul li:hover ul,
+ul#navmenu-v li.iehover ul,
+ul#navmenu-v ul li.iehover ul,
+ul#navmenu-v ul ul li.iehover ul {
+  display: block;
+}
+
+
+/* ******************************************************************************** */
+
+/* Aqui empieza el css del Dcverticalmegamenu */
+label,p,h1,h2,h3,h4,h5,h6,pre,ul,ol,li,dl,dt,dd,form,a,fieldset,input,th,td{border:0;outline:none;margin:0;padding:0;}
+ul{list-style:none;}
+
+/* Demo Page Styles */
+h2 {font: normal 26px Arial, sans-serif; padding: 20px 0; margin: 0 0 30px 0;}
+.wrap {width: 19%; margin: 0px 0px 0px 1%; float:left}
+.demo-container {padding: 20px 0; width: 200px; float: left;}
+.demo-container.right {float: right;}
+.demo-container h4 {font-size: 14px; margin: 0 0 5px 0;}
+.clear {clear: both;}
+
+/* Vertical Mega Menu Styles */
+.mega-menu{
+font: bold 13px Arial, sans-serif; 
+line-height: 16px; 
+border-left: 1px solid #1B1B1B; 
+position: relative; /* Required */
+}
+.mega-menu li a {
+display: block; 
+color: #fff; 
+padding: 12px 38px 12px 25px; 
+text-shadow: 1px 1px 1px #000; 
+text-decoration: none;  
+border-top: 1px solid #555; 
+border-bottom: 1px solid #222; 
+border-right: 1px solid #1B1B1B;
+}
+.mega-menu li a:hover, .mega-menu li.mega-hover a {
+background: #191935; 
+color: #fff; 
+border-right: 1px solid #4b4b4b;
+}
+.mega-menu li a.dc-mega {
+position: relative;
+}
+/* Add arrow icon to parent links */
+.mega-menu li a .dc-mega-icon {
+display: block; 
+position: absolute; 
+top: 18px; 
+right: 15px; 
+width: 6px; 
+height: 8px; 
+background: url(/wordpress/wp-content/themes/CELA_THEME/images/verticalmenu/arrow_right.png) no-repeat 0 0;
+}
+/* Mega menu container */
+.mega-menu li .sub-container {
+position: absolute; /* Required */
+background: #191935;
+padding: 10px 10px 0 10px; 
+border: 1px solid #4b4b4b; 
+border-left: none;
+}
+.mega-menu li .sub-container .sub {}
+
+.mega-menu li .sub .row {
+width: 100%; overflow: hidden; /* Clear floats */
+}
+.mega-menu li .sub li {
+float: none; 
+width: 150px; 
+font-size: 1em; 
+font-weight: normal;
+}
+.mega-menu li .sub li.mega-hdr {
+float: left; /* Required */
+margin: 0 5px 10px 5px;
+}
+.mega-menu li .sub a, .mega-menu.left li .sub a {
+background: none; 
+border: none; 
+text-shadow: none;
+float: none;
+color: #fff; 
+padding: 7px 10px; 
+display: block;
+text-decoration: none; 
+font-size: 0.9em;
+}
+.mega-menu li .sub li.mega-hdr a.mega-hdr-a {
+padding: 5px 5px 5px 15px; 
+margin-bottom: 5px; 
+background: #CDAD45; 
+text-transform: uppercase; 
+font-weight: bold; 
+color: #fff; 
+text-shadow: 1px 1px 1px #333;
+}
+.mega-menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+color: #000; 
+text-shadow: none;
+}
+.mega-menu .sub li.mega-hdr li a {
+padding: 4px 5px 4px 20px; 
+background: url(/wordpress/wp-content/themes/CELA_THEME/images/verticalmenu/arrow_white.png) no-repeat 5px 8px; 
+font-weight: normal;
+}
+.mega-menu .sub li.mega-hdr li a:hover {
+color: #E1B715; 
+background: #000000;
+}
+.mega-menu .sub ul li {
+padding-right: 0;
+}
+/* Styling for menu items with only 2 levels */
+.mega-menu li .sub-container.non-mega .sub {
+padding: 10px;}
+.mega-menu li .sub-container.non-mega li {
+padding: 0; 
+margin: 0;
+width: 150px;
+}
+.mega-menu li .sub-container.non-mega li a {
+padding: 7px 5px 7px 22px; 
+background: url(/wordpress/wp-content/themes/CELA_THEME/images/verticalmenu/arrow_white.png) no-repeat 7px 10px;
+}
+.mega-menu li .sub-container.non-mega li a:hover {
+color: #E1B715; 
+background: #efefef url(/wordpress/wp-content/themes/CELA_THEME/images/verticalmenu/arrow_on.png) no-repeat 7px 10px;
+}
