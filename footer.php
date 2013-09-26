@@ -14,7 +14,7 @@
 <div class='footer'>
 <div class='pie-banners Estilo1 Estilo2'>
 	<span class='Estilo3'>&#124;</span> 
-	<a href='/wordpress/' target='_self' class='titular2'>Inicio</a> 
+	<a href='<?php echo home_url(); ?> ' target='_self' class='titular2'>Inicio</a> 
 	<span class='Estilo4'>&#124;</span>
     <a href='http:/celaunam.foroactivo.mx' target='_blank' class='titular2'>Foro</a> 
 	<span class='Estilo4'>&#124;</span>

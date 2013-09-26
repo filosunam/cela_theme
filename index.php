@@ -16,7 +16,7 @@ get_header(); ?>
 <div id='centro' >
 	
 
-<!-- Prara la página de cineclub Muestra solo posts referentes a la categoría de cineclub -->
+<!-- Para la página de cineclub Muestra solo posts referentes a la categoría de cineclub -->
 	
 <?php
 if($pagename == '/cineclub/'){ ?>
