@@ -49,10 +49,26 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/nav-v.js"></script>
 <!-- Scripts de la galería del encabezado -->
 <script src="<?php bloginfo('template_directory'); ?>/js/jquery.cross-slide.min.js" type="text/javascript"></script>
-<script src="<?php bloginfo('template_directory'); ?>/js/cross-slide.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(function() {
+    $('#slideshow').crossSlide({
+      sleep: 2,
+      fade: 1
+    }, [
+      { src: '<?php bloginfo('template_directory'); ?>/images/encabezado/1.png' },
+      { src: '<?php bloginfo('template_directory'); ?>/images/encabezado/4.png' },
+      { src: '<?php bloginfo('template_directory'); ?>/images/encabezado/5.png' },
+      { src: '<?php bloginfo('template_directory'); ?>/images/encabezado/6.png' }
+    ])
+  });
+</script>
 <!-- Scripts para el fondo reajustable -->
 <script src="<?php bloginfo('template_directory'); ?>/js/fondo-reajustable.js" type="text/javascript"></script>
-<script src="<?php bloginfo('template_directory'); ?>/js/fondo-config.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$('#background').smartBackgroundResize({ image: "<?php bloginfo('template_directory'); ?>/images/fondo-rectoria-2.jpg"});
+	});
+</script>
 <!-- Scripts galería principal -->
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery/jquery-1.5.3-ui.min.js" ></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/image-rotate.js"></script>
