@@ -37,24 +37,6 @@ Contenedor main centra la página
 /*
 Encabezado
 */
-.encabezado{
-	background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/background-header-middle.png');
-	background-repeat: repeat-x;
-	min-width: 1020px;
-	width:100%;
-	height: 103px;
-	border: 0;
-	margin: 0px auto;
-}
-
-.cela-title{
-	background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/logo-n.png');
-	background-repeat: no-repeat;
-	height: 103px;
-	min-width:200px;
-	width: 31%;
-	float: right;
-}
 
 .style1 {
 	font-size: 40px;
@@ -119,20 +101,6 @@ a:active {
 		}
 }
 
-.barra-amarilla {
-  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/barra-amarilla.png');
-  background-repeat: repeat-x;
-  width: 100%;
-  min-width: 1000px;
-  height:20px;
-}
-.inicio {
-  height:20px;
-  float:left;
-  margin: 0px 0px 0px 6%;	
-  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/inicio-hover.png');
-  background-repeat: no-repeat;
-}
 .inicio a{
     display:block;
 }
@@ -147,13 +115,6 @@ a:active {
     visibility:hidden;
 }
 
-.facebook {
-  height:20px;
-  float:left;
-  margin: 0px 0px 0px 6%;	
-  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/facebook-hover.png');
-  background-repeat: no-repeat;
-}
 .facebook a{
     display:block;
 }
@@ -186,13 +147,6 @@ a:active {
  
 .twitter a:hover img {
     visibility:hidden;
-}
-.blog {
-  height:20px;
-  float:left;
-  margin: 0px 0px 0px 6%;	
-  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/blog-hover.png') ;
-  background-repeat: no-repeat;
 }
 .blog a{
     display:block;
@@ -227,13 +181,6 @@ a:active {
 .contactanos a:hover img {
     visibility:hidden;
 }
-.directorio {
-  height:20px;
-  float:left;
-  margin: 0px 0px 0px 6%;	
-  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/directorio-hover.png') ;
-  background-repeat: no-repeat;
-}
 .directorio a{
     display:block;
 }
@@ -246,13 +193,6 @@ a:active {
  
 .directorio a:hover img {
     visibility:hidden;
-}
-.foro {
-  height:20px;
-  float:left;
-  margin: 0px 0px 0px 6%;	
-  background-image: url('/wordpress/wp-content/themes/CELA_THEME/images/social/foro-hover.png') ;
-  background-repeat: no-repeat;
 }
 .foro a{
     display:block;
@@ -453,14 +393,6 @@ a:active {
 #featured .ui-tabs-panel a img{ 
 	width:200px; 
 	height:250px; 
-}
-#featured .ui-tabs-panel .info{ 
-	position:absolute; 
-	top:130px; left:0; 
-	height:120px;
-	width:200px;
-	background: url('../images/transparent-bg.png'); 
-	overflow:hidden; 
 }
 #featured .info h2{ 
 	font-size:16px; font-family:Georgia, serif; 
