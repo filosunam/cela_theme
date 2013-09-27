@@ -72,6 +72,83 @@
 <!-- Scripts galería principal -->
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery/jquery-1.5.3-ui.min.js" ></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/image-rotate.js"></script>
+<style type="text/css">
+	.cela-title{
+		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/logo-n.png);
+		background-repeat: no-repeat;
+		height: 103px;
+		min-width:200px;
+		width: 31%;
+		float: right;
+	}
+	.encabezado{
+		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/background-header-middle.png);
+		background-repeat: repeat-x;
+		min-width: 1020px;
+		width:100%;
+		height: 103px;
+		border: 0;
+		margin: 0px auto;
+	}
+	.barra-amarilla {
+  		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/barra-amarilla.png);
+  		background-repeat: repeat-x;
+  		width: 100%;
+  		min-width: 1000px;
+  		height:20px;
+	}
+	.inicio {
+  		height:20px;
+  		float:left;
+  		margin: 0px 0px 0px 6%;	
+  		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/social/inicio-hover.png);
+  		background-repeat: no-repeat;
+	}
+	.facebook {
+  		height:20px;
+  		float:left;
+  		margin: 0px 0px 0px 6%;	
+  		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/social/facebook-hover.png);
+  		background-repeat: no-repeat;
+	}	
+	.twitter {
+  		height:20px;
+  		float:left;
+  		margin: 0px 0px 0px 6%;	
+  		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/social/twitter-hover.png) ;
+  		background-repeat: no-repeat;
+	}	
+	.blog {
+  		height:20px;
+  		float:left;
+  		margin: 0px 0px 0px 6%;	
+  		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/social/blog-hover.png) ;
+  		background-repeat: no-repeat;
+	}
+	.contactanos {
+  		height:20px;
+  		float:left;
+  		margin: 0px 0px 0px 6%;	 
+  		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/social/contactanos-hover.png) ;
+  		background-repeat: no-repeat;
+	}
+	.directorio {
+  		height:20px;
+  		float:left;
+  		margin: 0px 0px 0px 6%;	
+  		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/social/directorio-hover.png) ;
+  		background-repeat: no-repeat;
+	}	
+	.foro {
+  		height:20px;
+  		float:left;
+  		margin: 0px 0px 0px 6%;	
+  		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/social/foro-hover.png) ;
+  		background-repeat: no-repeat;
+	}	
+}
+</style>
+
 </head>
 
 
