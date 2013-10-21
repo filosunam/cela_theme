@@ -334,6 +334,11 @@
 
 
 </ul>
+
+
+<?php wp_nav_menu(array( 'sort_column' => 'menu_order', 'menu' => 'Principal', 'container_class' => 'mega-menu', 'container_id' => 'mega-1', 'theme_location'  => 'Principal') ); ?>
+
+
 </div>
 </div>
 </div>	
