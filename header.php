@@ -146,6 +146,19 @@
   		background-image: url(<?php echo get_bloginfo('template_directory'); ?>/images/social/foro-hover.png) ;
   		background-repeat: no-repeat;
 	}	
+	.mega-menu .sub li.mega-hdr li a {
+		padding: 4px 5px 4px 20px; 
+		background: url(<?php echo get_bloginfo('template_directory'); ?>/images/verticalmenu/arrow_white.png) no-repeat 5px 8px; 
+		font-weight: normal;
+	}
+	.mega-menu li .sub-container.non-mega li a {
+		padding: 7px 5px 7px 22px; 
+		background: url(<?php echo get_bloginfo('template_directory'); ?>/images/verticalmenu/arrow_white.png) no-repeat 7px 10px;
+	}
+	.mega-menu li .sub-container.non-mega li a:hover {
+		color: #E1B715; 
+		background: #efefef url(<?php echo get_bloginfo('template_directory'); ?>/images/verticalmenu/arrow_on.png) no-repeat 7px 10px;
+	}
 }
 </style>
 
