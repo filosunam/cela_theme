@@ -760,11 +760,6 @@ text-shadow: 1px 1px 1px #333;
 color: #000; 
 text-shadow: none;
 }
-.mega-menu .sub li.mega-hdr li a {
-padding: 4px 5px 4px 20px; 
-background: url(/wordpress/wp-content/themes/CELA_THEME/images/verticalmenu/arrow_white.png) no-repeat 5px 8px; 
-font-weight: normal;
-}
 .mega-menu .sub li.mega-hdr li a:hover {
 color: #E1B715; 
 background: #000000;
@@ -779,12 +774,4 @@ padding: 10px;}
 padding: 0; 
 margin: 0;
 width: 150px;
-}
-.mega-menu li .sub-container.non-mega li a {
-padding: 7px 5px 7px 22px; 
-background: url(/wordpress/wp-content/themes/CELA_THEME/images/verticalmenu/arrow_white.png) no-repeat 7px 10px;
-}
-.mega-menu li .sub-container.non-mega li a:hover {
-color: #E1B715; 
-background: #efefef url(/wordpress/wp-content/themes/CELA_THEME/images/verticalmenu/arrow_on.png) no-repeat 7px 10px;
 }
